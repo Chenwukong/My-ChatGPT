@@ -1,0 +1,61 @@
+.chat-function {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 50px;
+}
+
+.left {
+  font-size: 20px;
+  width: 30%;
+}
+
+.left ul li {
+  margin-left: 5%;
+}
+
+.right {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  width: 15%;
+}
+
+.right ul li {
+  margin-right: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+/* .emoji-container {
+  position: absolute;
+  font-size: 20px;
+  bottom: 200%;
+  left: -200px;
+}
+
+.epr-emoji-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.epr-preview div {
+  display: none;
+}
+
+.epr-header-overlay input {
+  display: none;
+}
+
+.epr-header-overlay div {
+  display: none;
+}
+
+.bi-emoji-smile {
+  position: relative;
+  left: 0;
+  bottom: 0;
+} */

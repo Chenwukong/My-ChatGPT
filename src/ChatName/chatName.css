@@ -1,0 +1,27 @@
+.chat-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chatName-text {
+  font-size: 24px;
+  align-self: center;
+  line-height: 80px;
+  margin-left: 40px;
+}
+
+.chat-option {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  margin-right: 10px;
+}
+.chat-option li {
+  margin-right: 10px;
+}
+.chat-info {
+  font-size: 25px;
+  text-align: right;
+  margin-top: -10px;
+}

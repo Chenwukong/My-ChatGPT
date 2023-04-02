@@ -1,0 +1,54 @@
+.friend-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.friend-list ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.friend-list li > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+}
+
+.friend-list-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.friend-list-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+.smallWindow-friend {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  font-size: 20px;
+  min-height: 80px;
+  min-width: 100%;
+  background-color: rgb(233, 231, 230);
+}
+
+.last-message {
+  color: rgb(153, 153, 179);
+}
+
+.last-message-time {
+  display: flex;
+  color: rgb(153, 153, 179);
+}

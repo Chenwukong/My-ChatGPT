@@ -1,0 +1,23 @@
+.function-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    max-width: 80px;
+    height: 100%;
+    background-color: rgb(46,46,46);
+    color: red;
+}
+
+.function-list ul {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+
+.function-list li {
+    font-size: 20px;
+    margin-top: 30px;
+    color: rgb(137,137,137);
+}

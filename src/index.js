@@ -1,10 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import ChatPage from './ChatPage';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./app";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Provider } from "react-redux";
+import { legacy_createStore as createStore } from "redux";
+import rootReducer from "./reducer";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const store = createStore(rootReducer);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <ChatPage />
-  </React.StrictMode>
+  <Provider store={store}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Provider>
 );

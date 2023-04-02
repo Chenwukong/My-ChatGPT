@@ -1,0 +1,59 @@
+.text-box {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  font-size: 20px;
+  width: 100%;
+  padding-left: 30px;
+}
+
+textarea {
+  font-size: 20px;
+  resize: none;
+  width: 100%;
+  min-height: 200px;
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.send {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  min-height: 40px;
+  max-height: 40px;
+  background-color: white;
+}
+
+.send button {
+  color: rgb(132, 213, 145);
+  margin-right: 4%;
+  border: none;
+}
+
+.emoji-container {
+  position: absolute;
+  font-size: 20px;
+  bottom: 130%;
+}
+
+.epr-emoji-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.epr-preview div {
+  display: none;
+}
+
+.epr-header-overlay input {
+  display: none;
+}
+
+.epr-header-overlay div {
+  display: none;
+}

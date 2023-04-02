@@ -1,0 +1,60 @@
+.message-box {
+  /* display: flex;
+  justify-content: space-between; */
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.friend-message {
+  width: 10%;
+  margin-left: 2%;
+  font-size: 20px;
+}
+
+.self-message {
+  margin-right: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.self-message-box {
+  position: relative;
+  width: fit-content;
+  max-width: 400px;
+  text-align: left;
+  padding: 5px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  background-color: lightgreen;
+  border-radius: 5%;
+}
+
+.self-message-box::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 13px solid lightgreen;
+  border-radius: 20%;
+}
+
+.whole-self-message {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.self-message-profile {
+  margin-left: 15px;
+}
+
+.self-message-profile img {
+  width: 45px;
+  height: 45px;
+}
